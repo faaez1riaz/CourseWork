@@ -1,0 +1,258 @@
+﻿IOC,FIFA,ISO,Country
+AFG,AFG,AFG,Afghanistan
+,,ALA,Åland Islands
+ALB,ALB,ALB,Albania
+ALG,ALG,DZA,Algeria
+ASA,ASA,ASM,American Samoa[1]
+AND,AND,AND,Andorra
+ANG,ANG,AGO,Angola
+,AIA,AIA,Anguilla
+,,ATA,Antarctica
+ANT,ATG,ATG,Antigua and Barbuda
+ARG,ARG,ARG,Argentina
+ARM,ARM,ARM,Armenia
+ARU,ARU,ABW,Aruba
+AUS,AUS,AUS,Australia
+AUT,AUT,AUT,Austria
+AZE,AZE,AZE,Azerbaijan
+BAH,BAH,BHS,The Bahamas
+BRN,BHR,BHR,Bahrain
+BAN,BAN,BGD,Bangladesh
+BAR,BRB,BRB,Barbados
+BLR,BLR,BLR,Belarus
+BEL,BEL,BEL,Belgium
+BIZ,BLZ,BLZ,Belize
+BEN,BEN,BEN,Benin
+BER,BER,BMU,Bermuda
+BHU,BHU,BTN,Bhutan
+BOL,BOL,BOL,Bolivia
+,,BES,"Caribbean Netherlands: Bonaire, Sint Eustatius and Saba"
+BIH,BIH,BIH,Bosnia and Herzegovina
+BOT,BOT,BWA,Botswana
+,,BVT,Bouvet Island
+BRA,BRA,BRA,Brazil
+,,IOT,British Indian Ocean Territory
+IVB,VGB,VGB,British Virgin Islands[2]
+BRU,BRU,BRN,Brunei
+BUL,BUL,BGR,Bulgaria
+BUR,BFA,BFA,Burkina Faso
+BDI,BDI,BDI,Burundi
+CAM,CAM,KHM,Cambodia
+CMR,CMR,CMR,Cameroon
+CAN,CAN,CAN,Canada
+CPV,CPV,CPV,Cape Verde
+CAY,CAY,CYM,Cayman Islands
+CAF,CTA,CAF,Central African Republic
+CHA,CHA,TCD,Chad
+CHI,CHI,CHL,Chile
+CHN,CHN,CHN,"China, People's Republic of[3]"
+,,CXR,Christmas Island
+,,CCK,Cocos (Keeling) Islands
+COL,COL,COL,Colombia
+COM,COM,COM,Comoros
+COD,COD,COD,"Congo, Democratic Republic of the[4]"
+CGO,CGO,COG,"Congo, Republic of the[5]"
+COK,COK,COK,Cook Islands
+CRC,CRC,CRI,Costa Rica
+CIV,CIV,CIV,Côte d'Ivoire
+CRO,CRO,HRV,Croatia
+CUB,CUB,CUB,Cuba
+,CUW,CUW,Curaçao
+CYP,CYP,CYP,Cyprus
+CZE,CZE,CZE,Czech Republic
+DEN,DEN,DNK,Denmark
+DJI,DJI,DJI,Djibouti
+DMA,DMA,DMA,Dominica
+DOM,DOM,DOM,Dominican Republic
+ECU,ECU,ECU,Ecuador
+EGY,EGY,EGY,Egypt
+ESA,SLV,SLV,El Salvador
+,ENG,[6],England
+GEQ,EQG,GNQ,Equatorial Guinea
+ERI,ERI,ERI,Eritrea
+EST,EST,EST,Estonia
+SWZ,SWZ,SWZ,Eswatini
+ETH,ETH,ETH,Ethiopia
+,,FLK,Falkland Islands
+,FRO,FRO,Faroe Islands
+FIJ,FIJ,FJI,Fiji
+FIN,FIN,FIN,Finland
+FRA,FRA,FRA,France
+,,GUF,French Guiana
+,TAH,PYF,French Polynesia[7]
+,,ATF,French Southern and Antarctic Lands
+GAB,GAB,GAB,Gabon
+GAM,GAM,GMB,The Gambia
+GEO,GEO,GEO,Georgia
+GER,GER,DEU,Germany
+GHA,GHA,GHA,Ghana
+,GIB,GIB,Gibraltar
+GRE,GRE,GRC,Greece
+,,GRL,Greenland
+GRN,GRN,GRD,Grenada
+,,GLP,Guadeloupe
+GUM,GUM,GUM,Guam
+GUA,GUA,GTM,Guatemala
+,,GGY,Guernsey
+GUI,GUI,GIN,Guinea
+GBS,GNB,GNB,Guinea-Bissau
+GUY,GUY,GUY,Guyana
+HAI,HAI,HTI,Haiti
+,,HMD,Heard Island and McDonald Islands
+HON,HON,HND,Honduras
+HKG,HKG,HKG,Hong Kong[8]
+HUN,HUN,HUN,Hungary
+ISL,ISL,ISL,Iceland
+IND,IND,IND,India
+INA,IDN,IDN,Indonesia
+IRI,IRN,IRN,Iran
+IRQ,IRQ,IRQ,Iraq
+IRL,IRL,IRL,Ireland[9]
+,,IMN,Isle of Man
+ISR,ISR,ISR,Israel
+ITA,ITA,ITA,Italy
+JAM,JAM,JAM,Jamaica
+JPN,JPN,JPN,Japan
+,,JEY,Jersey
+JOR,JOR,JOR,Jordan
+KAZ,KAZ,KAZ,Kazakhstan
+KEN,KEN,KEN,Kenya
+KIR,,KIR,Kiribati
+PRK,PRK,PRK,"Korea, Democratic People's Rep. (North)[10]"
+KOR,KOR,KOR,"Korea, Republic of South"
+KOS,KVX,[12],Kosovo
+KUW,KUW,KWT,Kuwait
+KGZ,KGZ,KGZ,Kyrgyzstan
+LAO,LAO,LAO,Laos
+LAT,LVA,LVA,Latvia
+LBN,LIB,LBN,Lebanon
+LES,LES,LSO,Lesotho
+LBR,LBR,LBR,Liberia
+LBA,LBY,LBY,Libya
+LIE,LIE,LIE,Liechtenstein
+LTU,LTU,LTU,Lithuania
+LUX,LUX,LUX,Luxembourg
+,MAC,MAC,Macau
+MAD,MAD,MDG,Madagascar
+MAW,MWI,MWI,Malawi
+MAS,MAS,MYS,Malaysia
+MDV,MDV,MDV,Maldives
+MLI,MLI,MLI,Mali
+MLT,MLT,MLT,Malta
+MHL,,MHL,Marshall Islands
+,,MTQ,Martinique
+MTN,MTN,MRT,Mauritania
+MRI,MRI,MUS,Mauritius
+,,MYT,Mayotte
+MEX,MEX,MEX,Mexico
+FSM,,FSM,"Micronesia, Federated States of"
+MDA,MDA,MDA,Moldova
+MON,,MCO,Monaco
+MGL,MNG,MNG,Mongolia
+MNE,MNE,MNE,Montenegro
+,MSR,MSR,Montserrat
+MAR,MAR,MAR,Morocco
+MOZ,MOZ,MOZ,Mozambique
+MYA,MYA,MMR,Myanmar
+NAM,NAM,NAM,Namibia
+NRU,,NRU,Nauru
+NEP,NEP,NPL,Nepal
+NED,NED,NLD,Netherlands
+,NCL,NCL,New Caledonia
+NZL,NZL,NZL,New Zealand
+NCA,NCA,NIC,Nicaragua
+NIG,NIG,NER,Niger
+NGR,NGA,NGA,Nigeria
+,,NIU,Niue
+,,NFK,Norfolk Island
+,NIR,[6],Northern Ireland
+,,MNP,Northern Mariana Islands
+MKD,MKD,MKD,North Macedonia[13]
+NOR,NOR,NOR,Norway
+OMA,OMA,OMN,Oman
+PAK,PAK,PAK,Pakistan
+PLW,,PLW,Palau
+PLE,PLE,PSE,State of Palestine
+PAN,PAN,PAN,Panama
+PNG,PNG,PNG,Papua New Guinea
+PAR,PAR,PRY,Paraguay
+PER,PER,PER,Peru
+PHI,PHI,PHL,Philippines
+,,PCN,Pitcairn Islands
+POL,POL,POL,Poland
+POR,POR,PRT,Portugal
+PUR,PUR,PRI,Puerto Rico
+QAT,QAT,QAT,Qatar
+,,REU,Réunion
+ROU,ROU,ROU,Romania
+RUS,RUS,RUS,Russian Federation
+RWA,RWA,RWA,Rwanda
+,,BLM,Saint Barthélemy
+,,SHN,"Saint Helena, Ascension and Tristan da Cunha"
+SKN,SKN,KNA,Saint Kitts and Nevis
+LCA,LCA,LCA,Saint Lucia
+,,MAF,Saint Martin (French part)
+,,SPM,Saint Pierre and Miquelon
+VIN,VIN,VCT,Saint Vincent and the Grenadines
+SAM,SAM,WSM,Samoa[1]
+SMR,SMR,SMR,San Marino
+STP,STP,STP,São Tomé and Príncipe
+KSA,KSA,SAU,Saudi Arabia
+,SCO,[6],Scotland
+SEN,SEN,SEN,Senegal
+SRB,SRB,SRB,Serbia
+SEY,SEY,SYC,Seychelles
+SLE,SLE,SLE,Sierra Leone
+SGP,SIN,SGP,Singapore
+,,SXM,Sint Maarten (Dutch part)
+SVK,SVK,SVK,Slovakia
+SLO,SVN,SVN,Slovenia
+SOL,SOL,SLB,Solomon Islands
+SOM,SOM,SOM,Somalia
+RSA,RSA,ZAF,South Africa
+,,SGS,South Georgia and the South Sandwich Islands
+SSD,SSD,SSD,South Sudan
+ESP,ESP,ESP,Spain
+SRI,SRI,LKA,Sri Lanka
+SUD,SDN,SDN,Sudan
+SUR,SUR,SUR,Suriname
+,,SJM,Svalbard and Jan Mayen
+SWE,SWE,SWE,Sweden
+SUI,SUI,CHE,Switzerland
+SYR,SYR,SYR,Syria
+TPE,TPE,TWN,Taiwan[14]
+TJK,TJK,TJK,Tajikistan
+TAN,TAN,TZA,Tanzania
+THA,THA,THA,Thailand
+TLS,TLS,TLS,Timor-Leste[15]
+TOG,TOG,TGO,Togo
+,,TKL,Tokelau
+TGA,TGA,TON,Tonga
+TTO,TRI,TTO,Trinidad and Tobago
+TUN,TUN,TUN,Tunisia
+TUR,TUR,TUR,Turkey
+TKM,TKM,TKM,Turkmenistan
+,TCA,TCA,Turks and Caicos Islands
+TUV,,TUV,Tuvalu
+UGA,UGA,UGA,Uganda
+UKR,UKR,UKR,Ukraine
+UAE,UAE,ARE,United Arab Emirates
+GBR,,GBR,United Kingdom[16]
+USA,USA,USA,United States
+,,UMI,United States Minor Outlying Islands
+ISV,VIR,VIR,United States Virgin Islands[17]
+URU,URU,URY,Uruguay
+UZB,UZB,UZB,Uzbekistan
+VAN,VAN,VUT,Vanuatu
+,,VAT,Vatican City State
+VEN,VEN,VEN,Venezuela
+VIE,VIE,VNM,Vietnam
+,WAL,[6],Wales
+,,WLF,Wallis and Futuna
+,,ESH,Western Sahara
+YEM,YEM,YEM,Yemen
+ZAM,ZAM,ZMB,Zambia
+ZIM,ZIM,ZWE,Zimbabwe
+BIR,BUR,BUR,Burma
+TCH,TCH,CSK,Czechoslovakia
+URS,URS,SUN,Soviet Union

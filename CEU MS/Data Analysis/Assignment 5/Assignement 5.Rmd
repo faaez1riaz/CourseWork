@@ -1,0 +1,33 @@
+
+
+```{r}
+library(PKI)
+
+# Create a keypair and save them in PEM format to variables
+key <- PKI.genRSAkey(bits = 2048L)
+
+prv.pem <- PKI.save.key(key, private=TRUE)
+print(prv.pem)
+
+pub.pem <- PKI.save.key(key, private=FALSE)
+print(pub.pem)
+
+# Extract the Public key from the public key's PEM format
+pub.key <- PKI.load.key(pub.pem)
+prv.key <- PKI.load.key(prv.pem)
+
+# Encrypt with the public key
+bytes.to.encode = charToRaw("Hello, asymmetric encryption!")
+encrypted <- PKI.encrypt(bytes.to.encode, pub.key)
+print(encrypted)
+
+# Decrypt with the private key
+decrypted <- rawToChar(PKI.decrypt(encrypted, prv.key))
+print(decrypted)
+
+# Save the keys to a file, then load them back
+write(pub.pem, file="id_rsa.pub") # Save Public key 
+write(prv.pem, file="id_rsa")     # Save Private key
+
+```
+

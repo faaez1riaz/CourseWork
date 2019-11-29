@@ -1,0 +1,170 @@
+---
+title: "Assignment 10"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Housekeeping
+```{r}
+library(modelr)
+library(ggplot2)
+library(tidyverse)
+library(data.table)
+library(purrr)
+library(modelr)
+```
+
+```{r}
+vienna <- read_csv("hotels-vienna/clean/hotels-vienna.csv")
+```
+### Exercise 1. 
+Write the code that does what I describe above for the vienna dataset. That is, compute the mean price and compute the bootstrap standard deviation of this mean (aka 'the standard error'). Don't worry yet about writing functions that can be used for more general things.
+
+```{r}
+x <- vienna$price
+sample_distribution <- lapply(1:2, function(i) {return(sample(x, replace= TRUE))})
+means <- sapply(sample_distribution, mean)
+sd(means)
+```
+
+### Exercise 2. 
+Write a function `bootstrap_mean` that takes two arguments:
+- `B`: the number of simulations/replications you want to run (how many datasets to generate)
+- `v`: the column on Vienna prices (or more generally whatever column you want to compute the mean of), the one from which you sample the simulated datasets
+Use this and plot the standard error against $B$.
+```{r}
+bootstrap_mean <- function(B, V) {
+  sample_distribution <- lapply(1:B, function(i) {return(sample(V, replace= TRUE))})
+  means <- sapply(sample_distribution, mean)
+  return(sd(means))
+}
+
+bootstrap_mean(100, vienna$price)
+```
+
+Plot $B$ against Standard Error
+```{r}
+
+bootstrap_mean(100, vienna$price)
+o <- data.frame(B = integer(), SE = double())
+B <- c(100, 1000, 10000, 100000)
+
+set.seed(42)
+sample_d <- lapply(B, bootstrap_mean, V = vienna$price)
+for (i in 1:length(sample_d)){
+  o <- add_row(o, B = B[i], SE = sample_d[[i]])
+}
+
+o %>% ggplot(aes(B, SE)) + geom_point() + geom_label(label=B, position = position_nudge(x = 0.6, y = 0.02))
+```
+
+### Exercise 3. 
+What is the non-bootstrap standard error? How can you get it out of R? (Hint: The mean function doesn't give it to you, but you can run a linear regression of a special kind that essentially only computes the average. You can solve this question differently as well.)
+
+```{r}
+std <- sd(vienna$price)
+n_rows <- nrow(vienna)
+vienna_SE <- std/sqrt(n_rows)
+vienna_SE
+```
+### Exercise 4. 
+Compute the bootstrap standard error for the `median()` rather than `mean()`. Define a function `bootstrap_median` for this which takes again an input vector $v$ for which you compute the mean, as well as a parameter $B$.
+
+```{r}
+bootstrap_median <- function(B, V) {
+  sample_distribution <- lapply(1:B, function(i) {return(sample(V, replace= TRUE))})
+  med_data <- map_dbl(sample_distribution, median)
+  return(sd(med_data))
+}
+
+bootstrap_median(200, vienna$price)
+```
+### Exercise 5.
+Compute the bootstrap standard error for:
+  - `mean()` and
+  - `median()` and
+  - the top quartile and
+  - the standard deviation of the price (yes, I want the standard deviation of the standard deviation... If this confuses you, go through the mean example and replace the computation of the `mean` by `the_thing_we_want` and realize that `the_thing_we_want` can be the standard deviation)
+  - `max()`
+One way to approach this is to define a new function for each. Another is to write a `bootstrap_func` function that takes an additional argument called `fun`, and then you call it `bootstrap_func(B, v, median)` to have the same effect as `bootstrap_median`. Implement this function `bootstrap_func`.
+
+Example calls to this function: `bootstrap_func(1000, vienna_data$price, mean)` and `bootstrap_func(1000, vienna_data, some_function_that_takes_a_dataframe_as_argument)`. Notice that the second argument can be a vector or a dataframe, and this depends on what function you pass in. The mean requires a vector, the `some_function_that_takes_a_dataframe_as_argument` takes a dataframe. Computing linear model coefficients requires a dataframe for instance.
+
+```{r}
+
+bootstrap_fun <- function(B, V, fun) {
+  output <- c()
+  if(length(V) != 2){
+    sample_distribution <- lapply(1:B, function(i) {return(sample(V, replace= TRUE))})
+    output <- sapply(sample_distribution, fun)
+  } else {
+    sample_distribution1 <- lapply(1:B, function(i) {return(sample(V[[1]], replace= TRUE))})
+    sample_distribution2 <- lapply(1:B, function(i) {return(sample(V[[2]], replace= TRUE))})
+    for(i in 1:length(sample_distribution1)){
+      output <- c(output, fun(a = sample_distribution1[[i]], b = sample_distribution2[[i]]))
+    }
+  }
+  return(sd(output))
+}
+
+top_quartile <- function(data) {
+  return(quantile(data, 0.75))
+}
+
+#mean
+bootstrap_fun(1000, vienna$price, mean)
+ #median
+bootstrap_fun(1000, vienna$price, median)
+
+#top_quartile
+bootstrap_fun(1000, vienna$price, top_quartile)
+
+#standard Deviation
+bootstrap_fun(1000, vienna$price, sd)
+
+#max
+bootstrap_fun(1000, vienna$price, max)
+```
+### Exercise 6.
+Use your new function to compute bootstrap estimators for the standard errors of some linear model coefficients on the vienna dataset. You have to define and name a function that returns the *coefficient* of the right linear model, and pass this function as one of the arguments to `bootstrap_func`.
+
+```{r}
+bootstrap_se_beta <- function(a, b) {
+  # d <- data.frame(Price = vienna$price, Distance = vienna$distance)
+  model <- lm(a ~ b, data = data.frame(a = a, b = b))
+  # print(model$coefficients[[1]])
+  return(model$coefficients[[2]])
+}
+
+bootstrap_se_alpha <- function(a, b) {
+  # d <- data.frame(Price = vienna$price, Distance = vienna$distance)
+  model <- lm(a ~ b, data = data.frame(a = a, b = b))
+  return(model$coefficients[[1]])
+}
+
+#Intercept
+bootstrap_fun(10000, data.frame(Price = vienna$price, Dist=vienna$distance), bootstrap_se_alpha)
+
+#Slope
+bootstrap_fun(10000, data.frame(Price = vienna$price, Dist=vienna$distance), bootstrap_se_beta)
+
+```
+
+### Exercise 7. 
+Compare the bootstrap estimators to the ones that `summary(lm(...))` spits out. Show the output that gives these estimators.
+```{r}
+m <- lm(vienna$price ~ vienna$distance, data=vienna)
+summary(m)
+```
+
+**Ans:**
+
+The difference between the bootstrapped Standard Error estimates of the regression coefficients and the Standard Error calculated by the formula are very similar which means that our bootstrapped estimates are good. 
+
+The Slope Standard Error is 2.64 for bootstrap compared to 2.71 for our model and the intercept coefficient is also very close. 

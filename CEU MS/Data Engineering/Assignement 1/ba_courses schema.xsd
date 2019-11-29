@@ -1,0 +1,39 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="all_ba_courses">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="term" minOccurs="3" maxOccurs="unbounded">
+					<xs:complexType mixed="true">
+						<xs:sequence>
+							<xs:element name="course" minOccurs="1" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="course_title" type="xs:string"/>
+										<xs:element name="course_instrucor">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="first_name" type="xs:string"/>
+													<xs:element name="last_name" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="course_credits">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:byte">
+														<xs:attribute name="status" type="xs:string" use="required"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="home_program" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

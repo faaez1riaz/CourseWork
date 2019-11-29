@@ -1,0 +1,658 @@
+---
+title: "Assignment for Lecture 4"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+warning = FALSE
+```
+
+R Markdown
+
+mutate()
+
+```{R}
+library(nycflights13)
+library(tidyverse)
+library(ggpubr)
+# select(flights, dep_time, arr_time, air_time)
+```
+
+Let's stare at the columns to see what we can choose from
+View(flights)
+
+Narrow the tibble to see what mutate() is doing
+
+```{R}
+(flights_small <- select(flights,
+                        year:day, 
+                        ends_with("delay"), 
+                        distance,
+                        air_time))
+
+mutate(flights_small, 
+       catchup = dep_delay - arr_delay,
+       speed_miles = (distance/air_time) * 60
+       )
+```
+
+
+No one knows what speed in miles is, let's fix that
+
+
+Magic numbers. Great, every one loves them. They are evil.
+
+```{r}
+KM_PER_MILE <- 1.61
+
+mutate(flights_small,
+       speed_km = (distance * KM_PER_MILE/air_time) * 60)
+
+# Even nicer is to create intermediate results for clarity
+mutate(flights_small,
+       distance_km = distance * KM_PER_MILE,
+       air_time_hours = air_time / 60,
+       speed_km = distance_km / air_time_hours
+       )
+```
+
+
+You cannot use all transformations inside mutate.
+It has to be vectorized: it takes a vector and returns a vector of the same length
+The reason (I believe) is that the operation is done on the column as a whole,
+For this the operation needs to make sense for a whole column, not just for one number
+
+SOME VECTORIZED OPERATIONS
+
+# Standard arithmetic functions will work: +, *, etc
+
+# The time in dep_time is given by HHMM (How do I know this?)
+
+```{r}
+transmute(flights,
+          dep_time,
+          dep_hour = dep_time %/% 100,
+          dep_minutes = dep_time %% 100
+          )
+```
+
+
+
+# log(), log2(), log10() work
+
+# How can you test whether something is vectorized? 
+
+```{r}
+(x <- c(0,1,2,3,4,5,6,7,8,9))
+(y <- 0:9)
+(z <- seq(0,9))
+
+(lag(y))
+(lag(lag(y)))
+(lead(y))
+```
+
+
+
+# What do lag and lead do?
+
+# Some cumulative and aggregate functions
+
+```{r}
+cumsum(x)
+cumprod(x)
+cumprod(lead(x))
+#?cummin
+# ?cummax
+cummean(x)
+```
+
+
+
+# Logical operators work
+
+```{r}
+x > 3
+x > y
+x == y
+# What does the answer to this even mean?
+x == c(2,4)
+x > c(2,4,6)
+```
+
+# Ranking functions
+
+```{r}
+y <- c(10, 5, 6, 3, 7)
+min_rank(y)
+```
+
+
+
+# Can you figure out from playing around with min_rank() how it works exactly?
+
+# So, what is not a vectorized operation?
+
+```{r}
+c(2,4)^2 # This is vectorized
+kk <- function(x) { x[3]}
+kk(1:5) # not vectorized
+mean(x)
+```
+
+
+
+
+# What happens when we try this on a dataframe
+
+```{r}
+transmute(flights, delay = mean(arr_delay, na.rm = TRUE))
+transmute(flights, delay = kk(arr_delay))
+```
+
+Exercise: Try out a few of the other commands in the chapter.
+
+```{r}
+vars <- c(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+
+row_number(vars)
+
+dense_rank(vars)
+
+percent_rank(vars)
+
+cume_dist(vars)
+```
+
+Exercise: Create several ranges with the n:m notation, i.e. 2:4, 4:8, etc.
+
+Try to find out whether you can also take negative ranges and descending.
+
+ Ans: Yes we can take negative numbers and descending as well based on the examples below.
+
+```{r}
+vars_asc <- c(0:20)
+
+vars_neg <- c(-5:-1)
+
+vars_desc <- c(7:0)
+```
+
+Exercise: Read ?":" (the same as help(":"))
+
+Its the same as help.
+
+Exercise: Use slice() to choose the first 10 rows of flights.
+
+```{r}
+slice(flights, 1:10)
+```
+
+Do the following exercises from 5.5.2:
+
+Exercise 1
+Currently dep_time and sched_dep_time are convenient to look at, but hard to compute with because they’re not really continuous numbers. Convert them to a more convenient representation of number of minutes since midnight.
+
+```{r}
+#Convert into minutes from midnight
+min_h <- 60
+flights_updated <- flights %>% 
+  mutate(dep_time = (dep_time %/% 100)*min_h + dep_time %% 100,
+sched_dep_time = (sched_dep_time %/% 100)*min_h + sched_dep_time %% 100)
+```
+
+Exercise 2
+Compare air_time with arr_time - dep_time. What do you expect to see? What do you see? What do you need to do to fix it?
+
+**Ans:** Since the values of arr_time and dep_time are not continuous the subraction leads to the wrong result and a value different from the pre-computed air_time value (which is in minutes). Both arr-Time and dep_time need to be converted to minutes_from_midnight continuous values and then the ar_time - dep_time (journey_time in below solution) will be co,puted correctly.
+
+```{r}
+flights %>% transmute(air_time,  journey_time = arr_time - dep_time)
+
+#joruney_time is arr_time - dep_time
+flights_updated <- flights %>% 
+  transmute(dep_time, arr_time, dep_time = (dep_time %/% 100)*min_h + dep_time %% 100,
+arr_time = (arr_time %/% 100)*min_h + arr_time %% 100, journey_time = arr_time - dep_time, air_time)
+
+flights_updated %>% select(dep_time, arr_time, journey_time, air_time)
+
+```
+
+
+Exercise 4
+
+Find the 10 most delayed flights using a ranking function. How do you want to handle ties? Carefully read the documentation for min_rank().
+
+**Ans:** The 10 most delayed flights can be found using min_rank. Ties are handled by giving the same rank to tied values and min_rank does it the same way.
+
+```{r}
+del_flights <- flights %>% filter(min_rank(desc(dep_delay)) <= 10) %>% arrange(desc(dep_delay))
+del_flights
+        
+```
+
+Hint: When you get stuck, try the following two strategies:
+1. Take a single row, and work it out by hand
+2. Create a variable my_flights which contains only a few rows (4 to 10).
+Work out a solution for my_flights, where you can check every step.
+
+**summarise()**
+
+```{r}
+summarise(flights, delay = mean(dep_delay, na.rm = TRUE))
+```
+
+How... useful. Might as well do
+
+```{r}
+mean(flights$dep_delay, na.rm = TRUE)
+```
+
+
+<data-frame>$<column-name> will give you that column. Quick way to choose columns.
+
+```{r, eval=FALSE}
+mean(select(flights, dep_delay), na.rm = TRUE)
+```
+
+ERROR: argument is not numeric or logical: returning NA[1] NA
+
+An error I made: I tried this:
+Huh? What's going on here? 
+
+```{r, eval=FALSE}
+flights$dep_delay
+select(flights, dep_delay)
+```
+
+
+I thought select(flights, dep_delay) was the same as flights$dep_delay
+Aha, we should have guessed, since select returns a *data frame*,
+but we want a column. A data frame of 1 column is not the same as 
+a single column.
+
+Still, summarise is way more interesting with its friend, group_by
+
+
+```{r}
+by_day <- group_by(flights, year, month, day)
+by_day
+```
+
+
+
+Looks distinctly the same
+
+But it really isn't!
+
+```{r}
+summarise(
+  group_by(flights, year, month, day), 
+  delay = mean(dep_delay, na.rm = TRUE)
+  )
+```
+
+5.6.1
+Let's explore link between distance and average delay for every location
+What that means is that we want to know the average delay for every destination.
+Then, once we have that, we want to see how the distance to this location
+is related to the delay to this location.
+
+
+```{r}
+by_destination <- group_by(flights, dest)
+delay <- summarise(by_destination,
+                   delay = mean(arr_delay, na.rm = TRUE))
+delay
+```
+
+
+
+OK, we need the distance too, or else there is not much to plot.
+
+```{r}
+(delay <- summarise(by_destination,
+                   delay = mean(arr_delay, na.rm = TRUE),
+                   distance = mean(distance, na.rm = TRUE)))
+
+p <- ggplot(data = delay,
+            mapping = aes(x = distance, y = delay))
+p + geom_point() + geom_smooth()
+
+
+```
+
+Improving the graph...
+
+```{r}
+(delay <- summarise(by_destination,
+                    count = n(), 
+                   delay = mean(arr_delay, na.rm = TRUE),
+                   distance = mean(distance, na.rm = TRUE)))
+
+p <- ggplot(data = delay,
+            mapping = aes(x = distance, y = delay))
+p + geom_point(mapping = aes(size = count), alpha = 0.2) +
+  geom_smooth()
+```
+
+**# n() is a very special function**
+#n()
+
+# Finally...
+
+
+# Optional exercise as part of assignment 5 (somewhat harder): The above does not take into account 
+# the number of flights per location. A location with 1 flight matters as much
+# for smoothing as a location with 300. 
+# That is rarely what we want when smoothing globally. Read the following code,
+# to see if you understand how it works. Explain in your words in the .Rmd file.
+
+# Let's plot the original data, without first taking means by group
+# Woah, that looks different! (And ugly.)
+
+# So, not too misleading, but still...
+**# END OF EXERCISE**
+
+Doing this with a pipe, and filtering out destinations with 
+- less than 20 flights
+- to HNL (Honululu), since it's by far the furthest
+Note: I am not a big fan of dropping things that 'look too different'.
+You should do such robustness checks, but you shouldn't start there. 
+
+
+```{r}
+delays <- flights %>% 
+  group_by(dest) %>%
+  summarise(
+    delay = mean(arr_delay, na.rm = TRUE),
+    count = n(),
+    distance = mean(distance, na.rm = TRUE)
+    ) %>%
+  filter( count > 20, dest != "HNL")
+
+```
+
+
+
+Exercise: Rewrite the above command without the pipe. Which one do you find 
+easier to read?
+
+**Ans:** Piping makes it much easier to write and much easier to read as well for me because I look at different steps without getting confused by extra information.
+
+```{r}
+delays <- group_by(flights, dest)
+delays <- summarise(delays, delay = mean(arr_delay, na.rm = TRUE),
+          count = n(),
+          distance = mean(distance, na.rm = TRUE))
+filter(delays, count > 20, dest != 'HNL')
+```
+
+
+# 5.6.2 Missing values
+
+```{r}
+not_missing <- flights %>%
+  filter(!is.na(dep_delay), !is.na(arr_delay))
+```
+
+
+Exercise: Does the above command also drop observations that miss only the arr_delay but have a dep_delay? 
+
+Ans: YES
+
+Are there any observations in the dataset for which only dep_delay or arr_delay is missing, but not both?
+
+Ans: No, because both of the commands below return 0 result set.
+
+```{r}
+flights %>%
+  filter(!is.na(dep_delay) & is.na(dep_delay)) %>%  select(arr_delay, dep_delay)
+
+flights %>%
+  filter(is.na(dep_delay) & !is.na(dep_delay)) %>%  select(arr_delay, dep_delay)
+```
+
+
+5.6.3 Counts
+
+Average delay by airplane (identified by tailnum), plot density
+Start with freqpoly, then zoom in on that part of the graph that we are interested in..
+
+```{r}
+not_missing %>%
+  group_by(tailnum) %>%
+  summarise(delay = mean(dep_delay)) %>%
+  ggplot(mapping = aes(x = delay)) + 
+  geom_histogram(binwidth = 10)
+```
+
+Plot number of flights per airplane against delay
+
+```{r}
+
+not_missing %>%
+  group_by(tailnum) %>%
+  summarise(
+    count = n(),
+    delay = mean(arr_delay)
+    ) %>%
+  ggplot(mapping = aes(x = delay, y = count)) + 
+  geom_point(alpha = 0.1)
+```
+
+Since I need to filter the same thing, all the time just store in a variable. Delete other stuff.
+
+```{r}
+not_missing_planes <- not_missing %>%
+  group_by(tailnum) %>%
+  summarise(
+    count = n(),
+    delay = mean(arr_delay),
+    delay_median = median(arr_delay)
+    )
+```
+
+Get the median delay for each ariplane
+
+```{r}
+ggplot(data = not_missing_planes) + 
+  geom_histogram(mapping = aes(x = delay_median)) + 
+  geom_histogram(mapping = aes(x = delay), color = 'yellow', alpha = 0.3)
+  
+```
+
+```{r}
+not_missing_planes %>%
+  filter(count > 5) %>%
+  ggplot(mapping = aes(x = delay)) + 
+  geom_histogram()
+
+```
+
+  
+Filter the airplanes that fly rarely and pipe them into 
+ggplot which gets plussed into geoms.
+
+Try a few values for how many flights one should have done
+
+
+Assignment 5: 
+
+1. Do the exercises in this script file and work through the examples we didn't cover in class. As usual, turn the script into an .Rmd file, knit it, upload the .html and .pdf.
+
+3. Grade Assignment 4 of your peers.
+
+# 4. Document at least 10 errors and warnings you actually hit during the week. 
+If you do *not* hit that many errors or receive such warnings, congratulations.
+
+**1. Row_number()**
+ERROR: is.na() applied to non-(list or vector) of type 'closure'Error in x[!nas] : object of type 'closure' is not subsettable
+
+Was passing a dataframe to is.na() instead of vector
+
+**2.dense_rank()**
+ERROR: Error in unique.default(x) : unique() applies only to vectors
+
+I was using an array of strings instead of integers
+
+**3. del_flights <- filter(flights, min_rank(dep_delay))**
+Error: Argument 2 filter condition does not evaluate to a logical vector - learned how to use min_rank and filter together
+
+Was using a dataframe with one column instead of a vector
+
+**4. min and filter**
+Error in min_rank(., desc(dep_delay)) : unused argument (desc(dep_delay)) - 
+
+Using min_rank inside filter - min_rank was not evaluating to a boolean/logical vector because I was missing out a comparison statement
+
+**5. Error in plotting Vienna Data against Hotels Data**
+ggplot(mapping = aes(x = vienna$price, y = hotels_data$price))
+
+Both x and y need to be equal in length to make a scatter plot
+
+**6. Error in plotting side by side bar**
+Could not figure out how to plot a side by side bar in ggplot - hit a number of errors and then gave up. 
+
+**7. Had problems in leading ggarrange to combine multiple plots in one figure**
+Error in ggarrange() : could not find function "ggarrange"
+Error in library(ggpubr) : there is no package called ‘ggpubr’
+
+Fixed by installing the ggpubr package
+
+**8. Error in using hjust parameter to adjust the horizontal allignment of the labels of the combined plots**
+Error: unexpected symbol in:
+"ggarrange(vienna_plt, ams_plt, labels = c("Vienna", "Amsterdam"), hjust = c(-1, -1)
+ggarrange"
+
+Turns out we cannot adjust the horizontal allignement of both lables seperately but it has to be a common value for both - need to pass an int instead of a list of ints
+
+Pick one of the hotels graphs in Chapter 3, section 6, A1. Case study, finding a good deal among hotels. Replicate it -- try it yourself for 10 minutes before you go looking at the code -- and then make a variation of it.
+
+```{r, results='hide'}
+vienna <- read_csv('hotels-vienna.csv')
+```
+
+```{r}
+vienna %>% group_by(price) %>%  
+  summarise(frequency = n()) %>% 
+  ggplot(mapping = aes(x = price, y = frequency)) + geom_col() + xlim(0, 500)
+```
+
+```{r}
+vienna %>% group_by(price) %>%  
+  summarise(frequency = n()) %>% 
+  ggplot(mapping = aes(x = price)) + geom_histogram(binwidth = 20, color = 'Grey') + xlim(0, 500)
+```
+
+6. Instead of using the Vienna data, use the data for another city 
+(pick London if you don't want to choose). Do a basic data exploration,
+comparing the city to Vienna in terms of any variables you find interesting.
+Three plots maximum, don't spend more than 30 minutes on the analysis, before
+writing it down (if you are not doing this in parallel).
+
+```{r, results='hide'}
+#two different sheets with price and distance (in _features sheet)
+features <- read_csv('hotels-europe_features.csv')
+price <- read_csv('hotels-europe_price.csv')
+```
+
+
+```{r, warning=FALSE}
+
+#merge the two tables
+hotels_data <- merge(features, price, by = 'hotel_id')
+
+ams_data <- filter(hotels_data, city == "Amsterdam" & stars == 3.0) #filtered by amsterdam
+
+vienna_data <- vienna %>% filter(stars == 3.0)
+
+v_stat <- vienna_data %>% group_by(city)
+
+v_stat <- v_stat %>% summarise(mean = mean(price), median = median(price))
+v_stat
+```
+
+```{r}
+ams_stat <- ams_data %>% group_by(city)
+
+ams_stat <- ams_stat %>% summarise(mean = mean(price), median = median(price))
+ams_stat
+```
+
+
+Compare the prices of 3 star hotels in Vienna and Amsterdam
+
+```{r, warning = FALSE}
+vienna_plt <- vienna_data %>% ggplot(mapping = aes(x = price)) + geom_histogram(binwidth = 20, color = "black", fill = "grey") + xlim(0, 400) + labs(x = "", y = "")
+
+ams_plt <- ams_data %>% filter(stars == 3.0) %>% ggplot(mapping = aes(x = price)) + geom_histogram(binwidth = 20, color = "blue", fill = "sky blue") + xlim(0, 1500) + labs(x = "", y = "")
+
+combined_figure <- ggarrange(vienna_plt, ams_plt, labels = c("Vienna", "Amsterdam"), hjust = -2)
+
+annotate_figure(combined_figure,
+                top = text_grob("Price Comparison for Three Star Hotels", color = "Grey", face = "bold", size = 14),
+                bottom = text_grob("Price", vjust = -1,
+                                   hjust = 0, x = 0.5, face = "bold", size = 14),
+                left = text_grob("No. of Hotels", rot = 90, size = 14, face = "bold"),
+)
+```
+
+
+```{r}
+ams_data <- filter(hotels_data, city == "Amsterdam") #filtered by amsterdam
+
+vienna_data <- vienna
+
+v_stat <- vienna_data %>% group_by(city)
+
+v_stat <- v_stat %>% summarise(mean = mean(price), median = median(price))
+v_stat
+```
+
+
+```{r}
+ams_stat <- ams_data %>% group_by(city)
+
+ams_stat <- ams_stat %>% summarise(mean = mean(price), median = median(price))
+ams_stat
+```
+
+
+Compare the overall spread of prices of hotels in Vienna and Amsterdam
+
+```{r, warning = FALSE}
+vienna_plt <- vienna_data %>% ggplot(mapping = aes(x = price)) + geom_histogram(binwidth = 20, color = "black", fill = "grey") + xlim(0, 400) + labs(x = "", y = "")
+
+ams_plt <- ams_data %>% filter(stars == 3.0) %>% ggplot(mapping = aes(x = price)) + geom_histogram(binwidth = 20, color = "blue", fill = "sky blue") + xlim(0, 1500) + 
+  labs(x = "", y = "")
+
+combined_figure <- ggarrange(vienna_plt, ams_plt, labels = c("Vienna", "Amsterdam"), hjust = -2)
+
+annotate_figure(combined_figure,
+                top = text_grob("Price Comparison for all hotels in Amsterdam and Vienna", 
+                                color = "Grey", face = "bold", size = 14),
+                bottom = text_grob("Price", vjust = -1,
+                                   hjust = 0, x = 0.5, face = "bold", size = 14),
+                left = text_grob("No. of Hotels", rot = 90, size = 14, face = "bold"),
+)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

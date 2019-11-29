@@ -1,0 +1,35 @@
+course_id,course_name,home_program,course_level,course_instructor
+,Consumer Services,17,1,20
+,Astronomy,22,1,4
+,Basic Industries,13,1,13
+,Finance,17,1,16
+,Transportation,7,1,1
+,Health Care,19,1,9
+,Technology,22,1,4
+,Energy,19,1,25
+,Capital Goods,1,1,12
+,Consumer Non-Durables,9,1,22
+,Public Utilities,2,1,23
+,Miscellaneous,6,1,13
+,Consumer Durables,5,1,3
+,Data Engineering,22,1,20
+,Data Analytics,12,1,22
+,Data Wrangling,12,1,15
+,Public Policy,21,1,12
+,Economics,6,1,20
+,German,20,3,1
+,Hungarian,13,3,25
+,French,14,3,26
+,Urdu,3,3,18
+,Python,18,3,18
+,Into to R,16,4,21
+,Network Science,13,4,27
+,Hindi,11,4,27
+,Chinese,10,4,18
+,Turkish,21,4,12
+,Slovakian,6,2,3
+,Central Asian Studies,11,2,12
+,Gender Study,12,2,21
+,Political Science,12,2,22
+,Data Structures,11,2,23
+,AI,6,2,12

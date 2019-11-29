@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all_ba_courses>
+	<term>PRE-SESSION
+		<course>
+			<course_title>Mathematics and Informatics Pre-session for Business Analytics</course_title>
+			<course_instrucor>
+				<first_name>Oliver</first_name>
+				<last_name>Kiss</last_name>
+			</course_instrucor>
+			<course_credits status="mandatory">0</course_credits>
+			<home_program>BA</home_program>
+		</course>
+		<course>
+			<course_title>Maximizing Your Future</course_title>
+			<course_instrucor>
+				<first_name>Anna</first_name>
+				<last_name>Kaposvari</last_name>
+			</course_instrucor>
+			<course_credits status="elective">0</course_credits>
+			<home_program>F</home_program>
+		</course>
+	</term>
+	<term>FALL 2019-20
+		<course>
+			<course_title>Coding 1: Data Management and Analysis with R</course_title>
+			<course_instrucor>
+				<first_name>Marc</first_name>
+				<last_name>Kaufmann</last_name>
+			</course_instrucor>
+			<course_credits status="mandatory">2</course_credits>
+			<home_program>BA</home_program>
+		</course>
+		<course>
+			<course_title>Data Engineering 1: Different Shapes of Data</course_title>
+			<course_instrucor>
+				<first_name>Laszlo</first_name>
+				<last_name>Sallo</last_name>
+			</course_instrucor>
+			<course_credits status="mandatory">1</course_credits>
+			<home_program>BA</home_program>
+		</course>
+	</term>
+	<term>Winter 2019-20
+		<course>
+			<course_title>Data Security and GDPR</course_title>
+			<course_instrucor>
+				<first_name>Peter</first_name>
+				<last_name>Papp</last_name>
+			</course_instrucor>
+			<course_credits status="mandatory">1</course_credits>
+			<home_program>BA</home_program>
+		</course>
+		<course>
+			<course_title>Scrum in Agile Project Management</course_title>
+			<course_instrucor>
+				<first_name>Laszlo</first_name>
+				<last_name>Sallo</last_name>
+			</course_instrucor>
+			<course_credits status="elective">1</course_credits>
+			<home_program>TM</home_program>
+		</course>
+	</term>
+	<term>Spring 2019-20
+		<course>
+			<course_title>Capstone Project</course_title>
+			<course_instrucor>
+				<first_name>Gyorgy</first_name>
+				<last_name>Bogel</last_name>
+			</course_instrucor>
+			<course_credits status="mandatory">5</course_credits>
+			<home_program>BA</home_program>
+		</course>
+	</term>
+</all_ba_courses>
+
