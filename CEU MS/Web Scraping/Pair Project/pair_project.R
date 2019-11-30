@@ -7,11 +7,15 @@ library(data.table)
 #We selected the bitfinex exchange for scraping
 #define url
 url <- 'https://api-pub.bitfinex.com/v2/tickers?symbols=ALL'
-getwd()
+
 #Get the Json data
 get_data <- function(url) {
-  my_ans_data <- fromJSON(url, flatten = T)
+  url <- 'https://api-pub.bitfinex.com/v2/tickers?symbols=ALL'
 
+  my_ans <- GET(url, verbose(info = T))
+
+  my_ans_data <- fromJSON(my_ans)
+  # the data object will be return as a df. Some of the column will be also df
 
   coins <- data.frame(symbol = character(), current_price_usd=double(), daily_volume_traded=double(), daily_perc_change=double() , daily_hour_high=double(), daily_hour_low=double())
   
@@ -32,7 +36,6 @@ get_coin_data <- function(url){
 
 #Call function
 coins_data <- get_coin_data(url)
-view(coins_data)
 
 #Save our file
 saveRDS(coins_data, "coins_data.rds")
