@@ -31,6 +31,10 @@ clean_names <- function(str) {
   substr(str, 1, regexpr("<", str) - 2)
 }
 
+clean_codes <- function(str) {
+  substring(str, regexpr("=", str) + 1)
+}
+
 #Apply for each name in our dataframe
 list_of_names <- sapply(list_of_companies[[2]], clean_names)
 list_of_names <- rbind_list(list_of_names)
@@ -60,8 +64,75 @@ output_data <- left_join(all_companies_data, list_of_companies, by = c("Company 
 
 #renaming columns according to our data
 output_data <- output_data %>% rename("Date" = category, "Stock Price"=price, "Company Name"=name)
+
+#saving our data
 write_csv(output_data, "stocks_data.csv")
-saveRDS(output_data, "stocks_data.csv")
+saveRDS(output_data, "stocks_data.rds")
+
+
+##########################
+pages <- c(1:29)
+
+get_list_of_companies <- function(pagenum) {
+  link <- paste0("https://csimarket.com/markets/Stocks.php?days=yday&pageA=", pagenum, "1#tablecomp2")
+  t <- read_html(link)
+  
+  links <- t %>% 
+        html_nodes('.linktm')%>%
+        html_attr('href')
+  
+  names <- t %>% 
+        html_nodes('.linktm')%>%
+        html_text()
+  
+  codes <- lapply(links, clean_codes)
+  codes <- unlist(codes)
+  
+  return(data.frame(value=codes, name=names))
+}
+
+list_of_companies2 <- lapply(pages, get_list_of_companies)
+list_of_companies2 <- rbind_list(list_of_companies2)
+
+
+get_info <- function(code) {
+  my_url <- paste0("https://csimarket.com/stocks/at_glance.php?code=", code)
+
+
+  t <- read_html(my_url)
+  
+  title <- t %>% 
+        html_nodes('.Naziv') %>%
+        html_text()
+  
+  q <- t %>% 
+        html_nodes('table.comgl') %>%
+        html_table(fill=TRUE)
+    
+  q1 <- t %>% 
+        html_nodes('a:nth-child(2)') %>%
+        html_text()
+  
+  sector <- trimws(substring(q1[[1]], regexpr(".", q1[[1]]) + 1))
+  
+  industry <- trimws(substring(q1[[2]], regexpr(".", q1[[2]]) + 1))
+  
+  df <- data.frame("Company Name"=title, "Sector" = sector, "Industry"= industry, "Market Capitalization"=q[[1]][[2]][1], 
+                   "Shares"=q[[1]][[2]][2],
+                   "Employees"=q[[1]][[2]][3],
+                   "Revenues"= q[[1]][[2]][4],
+                   "Net Income"= q[[1]][[2]][5],
+                   "Cash Flow"= q[[1]][[2]][6],
+                   "Shares"=q[[1]][[2]][7])
+  
+  return(df)
+}
+
+
+all_companies_data2 <- pblapply(list_of_companies2[[1]], get_info)
+all_companies_data2 <- rbind_list(all_companies_data2)
+view(all_companies_data2)
+
 
 
 

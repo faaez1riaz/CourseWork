@@ -1,0 +1,581 @@
+Company.Name,Sector,Industry,Market.Capitalization,Shares,Employees,Revenues,Net.Income,Cash.Flow,Shares.1
+Fiserv Inc,Technology,Computer processing and cloud services,"45,417",400,"21,000","5,977",961,"8,093",401
+Fifth Third Bancorp,Financial,Money Center Banks,"22,326",736,"18,351","7,322","2,247","1,161",234
+National Beverage Corp.,Consumer Non Cyclical,Nonalcoholic Beverages,"2,295",47,"1,200",985,127,-40,36
+"Flir Systems, Inc.",Capital Goods,Industrial Machinery and Components,"7,200",136,"2,741","1,846",268,-298,42
+"Flowers Foods, Inc",Consumer Non Cyclical,Food Processing,"4,546",212,"10,900","4,052",258,-24,97
+Fluor Corporation,Capital Goods,Aerospace & Defense,-,-,"37,508",-,"-1,289",-39,202
+Flowserve Corp,Capital Goods,Miscellaneous Manufacturing,"6,411",132,"18,000","1,983",255,17,79
+Fmc Corporation,Basic Materials,Chemical Manufacturing,"12,824",131,"5,900","4,632",518,-15,215
+Federal National Mortgage Association Fannie Mae,Financial,Miscellaneous Financial Services,"15,730","5,762","7,600","26,186","14,636",0,0
+"Fossil Group,Â inc.",Consumer Discretionary,"Apparel, Footwear & Accessories",379,50,"15,200","2,293",5,0,24
+Fox Corporation,Services,Broadcasting Media & Cable TV,"22,195",621,"20,500","26,369","13,780",362,208
+Fox Factory Holding Corp.,Consumer Discretionary,Recreational Products,"2,595",39,"1,500",-168,92,-5,36
+"First Solar, Inc.",Energy,Renewable Energy Services & Equipment,"5,822",106,"6,060","2,355",-3,0,640
+Technipfmc Plc,Basic Materials,Miscellaneous Fabricated Products,"8,442",447,"20,300","13,005","-2,228","-1,049",481
+Frontier Communications Corporation,Services,Communications Services,67,104,"17,400","8,418","-6,049",0,"1,154"
+Fuller H B Co,Basic Materials,Chemical Manufacturing,"2,574",52,"4,400","2,926",140,-30,69
+"Gannett Co., Inc.",Utilities,Natural Gas Utilities,734,116,"31,250","2,854",42,0,12
+General Dynamics Corporation,Capital Goods,Aerospace & Defense,"52,236",291,"99,500","40,561","3,395",-47,849
+General Electric Co,Conglomerates,Conglomerates,"98,419","8,764","305,000","112,755","-4,774",0,"7,178"
+Guess Inc,Consumer Discretionary,"Apparel, Footwear & Accessories","1,362",71,"13,500","2,662",18,0,97
+"Pnc Financial Services Group, Inc.",Financial,Regional Banks,"69,350",452,"53,587","17,422","5,396",183,0
+Pentair Plc,Capital Goods,Industrial Machinery and Components,"7,447",169,"28,400","1,959",267,49,58
+Pinnacle West Capital Corporation,Utilities,Electric Utilities,"9,779",113,"6,366","3,868",671,-2,180
+Pilgrims Pride Corp,Consumer Non Cyclical,Food Processing,"7,804",250,"29,100","16,559",301,0,104
+Ppg Industries Inc,Basic Materials,Chemical Manufacturing,"30,711",238,"44,400","15,119","1,230",-201,409
+Ppl Corporation,Utilities,Electric Utilities,"24,924",731,"17,391","7,693","1,767",-7,"3,189"
+Prudential Financial Inc,Financial,Life Insurance,"38,750",414,"48,331","64,623","3,462",0,0
+Public Storage,Financial,Real Estate Investment Trusts,"36,547",175,"5,300","2,822","1,726",110,520
+Phillips 66,Energy,Oil & Gas Integrated Operations,"51,955",451,"14,000","166,034","4,883",0,0
+Pvh Corp.,Consumer Discretionary,"Apparel, Footwear & Accessories","7,291",75,"17,600","9,729",676,2,365
+"Quanta Services, Inc.",Capital Goods,Construction Services,"6,141",147,"24,600","12,112",344,0,300
+Pioneer Natural Resources Co,Energy,Oil And Gas Production,"21,378",167,"4,075","9,339",735,-94,"3,665"
+Qualcomm Inc,Technology,Communications Equipment,"102,358","1,231","33,000","25,263","3,387","-23,842",729
+"Qep Resources, Inc.",Energy,Oil And Gas Production,-,-,765,-,-949,90,688
+"Ryder System, Inc.",Services,Rental & Leasing,"2,765",52,"30,600","8,908",122,0,"3,808"
+Revlon Inc,Consumer Non Cyclical,Personal & Household Products,"1,311",53,"5,700","2,564",-190,0,-10
+Regions Financial Corporation,Financial,Money Center Banks,"16,880","1,012","23,723","5,465","1,754",202,132
+Resolute Forest Products Inc.,Basic Materials,Paper & Paper Products,362,91,"8,000","3,187",60,0,143
+Robert Half International Inc.,Services,Professional Services,"6,810",117,"14,000","5,928",453,-32,54
+Ralph Lauren Corporation,Consumer Discretionary,"Apparel, Footwear & Accessories","8,658",80,"25,000","6,351",439,0,205
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,094",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"47,981",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,719","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,308",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,902","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,216",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,175",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,542",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,479",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,449",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,033",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,805",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,311",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,893",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"22,934",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"293,620","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,689",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,125,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,554",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,419",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,094",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"47,981",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,719","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,308",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,902","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,216",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,175",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,542",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,479",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,449",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,033",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,805",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,311",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,893",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"22,934",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"293,620","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,689",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,125,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,554",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,419",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,094",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"47,981",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,719","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,308",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,902","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,216",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,175",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,542",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,479",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,449",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,033",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,805",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,311",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,893",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"22,934",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"293,620","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,689",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,125,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,554",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,419",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,094",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"47,981",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,719","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,308",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,902","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,216",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,175",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,542",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,479",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,449",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,033",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,805",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,311",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,893",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"22,934",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"293,620","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,689",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,125,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,554",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,419",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,094",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"47,981",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,719","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,308",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,902","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,216",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,175",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,542",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,479",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,449",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,033",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,805",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,311",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,893",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"22,934",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"293,620","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,689",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,125,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,554",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,419",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,094",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"47,981",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,719","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,308",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,902","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,216",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,175",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,542",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,479",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,449",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,033",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,805",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,311",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,893",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"22,934",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"293,620","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,689",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,125,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,554",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,419",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,094",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"47,981",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,719","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,308",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,902","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,216",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,175",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,542",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,479",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,449",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,163",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"48,002",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,774","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,301",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,259","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,211",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,291",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,545",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,468",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,500",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,163",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"48,002",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,774","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,301",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,259","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,211",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,291",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,545",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,468",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,500",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,163",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"48,002",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,774","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,301",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,259","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,211",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,291",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,545",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,468",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,500",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,163",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"48,002",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,774","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,301",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,259","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,211",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,291",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,545",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,468",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,500",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,163",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"48,002",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,774","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,301",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,259","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,211",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,291",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,545",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,468",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,500",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,163",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"48,002",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,774","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,301",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,259","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,211",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,291",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,545",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,468",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,500",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,163",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"48,002",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,774","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,301",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,259","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,211",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,291",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,545",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,468",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,500",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,163",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"48,002",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,774","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,301",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,259","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,211",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,291",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,545",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,468",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,500",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,163",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"48,002",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,774","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,301",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,259","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,211",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,291",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,545",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,468",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,500",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,163",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"48,002",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,774","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,301",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,259","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,211",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,291",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,545",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,468",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,500",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,163",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"48,002",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,774","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,301",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,259","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,211",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,291",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,545",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,468",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,500",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,163",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"48,002",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,774","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,301",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,259","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,211",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,291",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,545",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,468",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,500",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,163",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"48,002",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,774","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,301",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,259","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,211",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,291",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,545",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,468",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,500",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,163",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"48,002",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,774","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,301",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,259","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,211",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,291",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,545",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,468",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,500",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,163",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"48,002",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,774","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,301",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,259","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,211",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,291",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,545",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,468",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,500",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,163",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"48,002",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,774","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,301",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,259","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,211",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,291",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,545",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,468",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,500",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,163",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"48,002",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,774","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,301",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,259","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,211",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,291",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,545",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,468",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,500",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,163",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"48,002",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,774","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,301",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,259","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,211",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,291",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,545",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,468",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,500",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,163",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"48,002",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,774","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,301",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,259","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,211",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,291",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,545",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,468",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,500",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
+Whirlpool Corp,Consumer Discretionary,Appliance & Tool,"9,163",64,"100,000","20,697","1,080",0,566
+"Waste Management, Inc",Services,Environmental Services,"48,002",427,"39,800","15,474","1,866",0,"1,986"
+"WilliamsÂ companies,Â inc.",Utilities,Natural Gas Utilities,"27,774","1,214","6,742","8,298",234,205,"2,339"
+"Advanced Drainage Systems, Inc.",Capital Goods,Miscellaneous Manufacturing,"2,301",61,"4,615","1,634",-173,-9,15
+Walmart Inc.,Retail,Department & Discount Retail,"339,259","2,869","2,200,000","517,989","13,216",0,"19,497"
+Worthington Industries Inc,Basic Materials,Iron & Steel,"4,211",110,"10,500","3,627",104,-4,87
+W. R. Berkley Corp,Financial,Property & Casualty Insurance,"13,291",194,"7,621","7,878",700,-2,252
+Westrock Co,Basic Materials,Containers & Packaging,"10,545",259,"39,000","18,289",868,0,"1,369"
+Williams Sonoma Inc,Consumer Discretionary,Furniture & Fixtures,"5,468",79,"28,100","5,839",351,-119,43
+Western Union Co,Services,Professional Services,"11,500",427,"9,000","5,386","1,135",0,184
+Weyerhaeuser Company,Financial,Real Estate Investment Trusts,"22,030",747,"12,800","10,462",-155,-14,186
+"Wynn Resorts, Limited",Services,Casinos & Gaming,"12,834",107,"16,800","6,638",944,0,"1,206"
+United States Steel Corporation,Basic Materials,Iron & Steel,"2,338",171,"34,680","12,692",630,0,"1,333"
+Xcel Energy Inc,Utilities,Electric Utilities,"31,961",521,"11,589","14,382","1,294",651,"4,215"
+"Xilinx, Inc",Technology,Semiconductors,"23,135",255,"3,451","3,229",924,311,97
+Exxon Mobil Corp,Energy,Oil & Gas Integrated Operations,"294,320","4,288","75,300","282,457","18,449",-388,"22,670"
+Dentsply Sirona Inc.,Healthcare,Medical Equipment & Supplies,"12,734",226,"11,600","3,959","-1,119",-3,74
+"22nd Century Group, Inc.",Consumer Non Cyclical,Tobacco,128,125,"12,700",26,-29,-0,1
+"Yum! Brands, Inc.",Services,Restaurants,"31,589",315,"537,000","5,461",716,0,196
+"Zions Bancorporation, National Association",Financial,Regional Banks,"9,402",189,"10,462","2,804",860,-8,43
