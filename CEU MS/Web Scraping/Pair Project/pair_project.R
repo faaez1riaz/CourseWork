@@ -133,6 +133,34 @@ all_companies_data2 <- pblapply(list_of_companies2[[1]], get_info)
 all_companies_data2 <- rbind_list(all_companies_data2)
 view(all_companies_data2)
 
+## ANALYSIS
+
+library(tidyr)
+library(ggplot2)
+library(tidyverse)
+
+
+#Histogram of number of companies in each sector:
+b <- ggplot(data = scraped_data) + 
+  geom_bar(mapping = aes(x = Sector), col="red", alpha = .2)
+b +
+  coord_flip() +
+  labs(x = "Number of companies", y = "Sector")
 
 
 
+#removing the commas from Market Capitalization numbers
+scraped_data$Market.Capitalization <- as.numeric(gsub(",","",scraped_data$Market.Capitalization))
+scraped_data
+
+#plotting sum of Market Capitalization per sector 
+mc <- scraped_data %>%
+  group_by(Sector) %>%
+  summarise('marketcap' = sum(Market.Capitalization))
+
+view(mc)
+c <- ggplot(data = mc, mapping = aes(x = marketcap, y = Sector)) +
+  geom_point(colour = "blue", size = 2) +
+  theme_bw()
+
+c
