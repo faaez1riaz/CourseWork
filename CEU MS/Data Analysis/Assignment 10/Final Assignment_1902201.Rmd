@@ -28,7 +28,7 @@ Write the code that does what I describe above for the vienna dataset. That is, 
 
 ```{r}
 x <- vienna$price
-sample_distribution <- lapply(1:2, function(i) {return(sample(x, replace= TRUE))})
+sample_distribution <- lapply(1:100, function(i) {return(sample(x, replace= TRUE))})
 means <- sapply(sample_distribution, mean)
 sd(means)
 ```

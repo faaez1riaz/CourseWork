@@ -56,9 +56,10 @@ get_company_data <- function(code) {
 }
 
 #Run to get for all companies
-all_companies_data <- pblapply(list_of_companies[[1]], get_company_data)
+all_companies_data <- pblapply(list_of_companies2[[1]], get_company_data)
 all_companies_data <- rbind_list(all_companies_data)
 view(output_data)
+
 #Join with list of companies to include company names in our data as well
 output_data <- left_join(all_companies_data, list_of_companies, by = c("Company Code" = "value"))
 
@@ -71,8 +72,11 @@ saveRDS(output_data, "stocks_data.rds")
 
 
 ##########################
-pages <- c(1:29)
+#Get Company Data to go along with our time series stocks data
 
+pages <- c(1:1000)
+
+#Get list of companies from the table 2 - list of comapnies arrnaged by alpabetical order
 get_list_of_companies <- function(pagenum) {
   link <- paste0("https://csimarket.com/markets/Stocks.php?days=yday&pageA=", pagenum, "1#tablecomp2")
   t <- read_html(link)
@@ -91,10 +95,14 @@ get_list_of_companies <- function(pagenum) {
   return(data.frame(value=codes, name=names))
 }
 
-list_of_companies2 <- lapply(pages, get_list_of_companies)
+
+#Get list of companies
+list_of_companies2 <- pblapply(pages, get_list_of_companies)
 list_of_companies2 <- rbind_list(list_of_companies2)
 
-
+list_of_companies2 <- list_of_companies2 %>% distinct()
+view(list_of_companies2)
+#Get info for each company
 get_info <- function(code) {
   my_url <- paste0("https://csimarket.com/stocks/at_glance.php?code=", code)
 
@@ -129,20 +137,24 @@ get_info <- function(code) {
 }
 
 
+#get info for all companies
 all_companies_data2 <- pblapply(list_of_companies2[[1]], get_info)
 all_companies_data2 <- rbind_list(all_companies_data2)
-view(all_companies_data2)
+view(all)
+write_csv(all_companies_data2, "companies_info_data.csv")
+saveRDS(all_companies_data2, "companies_info_data.rds")
 
+scraped_data <- all_companies_data2
 ## ANALYSIS
 
 library(tidyr)
 library(ggplot2)
 library(tidyverse)
-
+library(ggstance)
 
 #Histogram of number of companies in each sector:
 b <- ggplot(data = scraped_data) + 
-  geom_bar(mapping = aes(x = Sector), col="red", alpha = .2)
+  geom_bar(mapping = aes(x = Sector, fill = Sector), alpha = .5)
 b +
   coord_flip() +
   labs(x = "Number of companies", y = "Sector")
@@ -158,9 +170,9 @@ mc <- scraped_data %>%
   group_by(Sector) %>%
   summarise('marketcap' = sum(Market.Capitalization))
 
-view(mc)
-c <- ggplot(data = mc, mapping = aes(x = marketcap, y = Sector)) +
-  geom_point(colour = "blue", size = 2) +
-  theme_bw()
+c <- ggplot(data = scraped_data, mapping = aes(x = Market.Capitalization, y = Sector, fill=Sector)) +
+  geom_boxploth() +
+  theme_bw() + scale_x_continuous()
 
 c
+all_companies_data
